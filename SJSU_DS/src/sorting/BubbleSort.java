@@ -73,38 +73,21 @@ class arrayToSort
     
     public void optimized_bubble()
     {
-        /*int i;
-        for(i=nElem-1; i>1; i--)
+        int i;
+        boolean flag=true;
+        
+        if(flag)
         {
-            for(int j=0;j<i;j++)
-            {
-                if(a[j] > a[j+1])
-                    swap(j, j+1);
-            }
-        }*/
-        
-        int i,j,k;
-        long temp;
-        
-        //System.out.println("\nUnsorted Data:");
-            //System.out.println(Arrays.toString(a));
-        
-        for(i=0;i<nElem-1;i++)
-          {
-            for(j=i;j<nElem-i-1;j++)
-            {
-                if(a[j]>a[j+1])
-                   {
-                      temp=a[j];
-                      a[j]=a[j+1];
-                      a[j+1]=temp;
-                  }
-                System.out.println("\nAfter iteration   i="+  i + " j = "+j );
-                System.out.println(Arrays.toString(a));
-            }
-            System.out.println("\nAfter pass   i="+  i + " j = "+j );
-                System.out.println(Arrays.toString(a));
-           }
+        	flag=false;
+        	for(i=0; i<a.length-1;i++)
+        	{
+        		if(a[i]>a[i+1])
+        		{
+        			swap(i, i+1);
+        			flag=true;
+        		}
+        	}
+        }
             
         display();
     }

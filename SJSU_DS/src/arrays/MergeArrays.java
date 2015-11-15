@@ -1,5 +1,7 @@
 package arrays;
 
+
+// Merge Two arrays in sorted order using extra data structure
 public class MergeArrays
 {
 

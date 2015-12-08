@@ -1,5 +1,2 @@
 1. Object lock vs Class lock
 http://howtodoinjava.com/2013/03/08/thread-synchronization-object-level-locking-and-class-level-locking/
-
-Microsoft
-http://www.geeksforgeeks.org/largest-rectangle-under-histogram/

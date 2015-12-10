@@ -1,6 +1,36 @@
-http://www.programcreek.com/2013/03/leetcode-lru-cache-java/
+1. http://www.programcreek.com/2013/03/leetcode-lru-cache-java/
 
-http://www.geeksforgeeks.org/find-distance-two-given-nodes/
+2. http://www.geeksforgeeks.org/find-distance-two-given-nodes/
 
 Microsoft
-http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+3. http://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+
+Convert Binary Search Tree (BST) to Sorted Doubly-Linked List
+4. https://chesterli0130.wordpress.com/2012/10/08/convert-binary-search-tree-bst-to-sorted-doubly-linked-list/
+
+Google online test questions:
+1. 1512 => largest number 1155112
+At a time, you can add one digit to the right of input digit like
+11512
+15512
+15112
+15122
+The output should be the largest number i.e. 15512
+
+2. Print longest absolute path of image file, input is following String
+Dir1
+ Dir11
+ Dir12
+ 	Dir121
+ 		image1.jpeg
+ Dir13
+ 	Dir131
+ 		image2.png
+The output should be /Dir1/Dir12/Dir121/image1.jpeg
+
+Nutanix Intern
+1. Given a binary tree. Each node has 3 pointers left, right and peer. Construct a inplace binary tree such that peer
+pointer of each node will point to the node to its right.
+
+2. Count words and spaces in a given String.
+like "This is  String" => words=3, spaces=3

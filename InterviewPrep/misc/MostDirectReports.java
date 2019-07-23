@@ -76,7 +76,7 @@ class Solution{
         }
         System.out.println("Employee with maximum people under him: "+maxReportEmp + " "+count);
     }
-    
+
 
     public static int populateResult(String emp, Map<String, List<String>> mgrToEmp){
 

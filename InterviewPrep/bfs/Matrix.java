@@ -1,4 +1,4 @@
-package test.java.concepts;
+package bfs;
 
 import java.util.LinkedList;
 import java.util.Queue;
